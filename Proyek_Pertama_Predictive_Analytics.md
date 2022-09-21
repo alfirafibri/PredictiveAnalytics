@@ -49,6 +49,7 @@ Teknik *data preparation* yang dilakukan pada proyek kali ini adalah sebagai ber
 1. Melakukan penghapusan fitur yang tidak diperlukan dengan menggunakan fungsi *drop*. Alasan melakukan hal tersebut karena pada proyek kali ini tidak memerlukan fitur *time* dan *volume*.
 2. Melakukan proses *splitting* pada dataset yaitu dengan membagi dataset menjadi 2, yaitu *train* dan *test* data. *Train* data digunakan sebagai training model, sedangkan *test* data digunakan sebagai validasi model. Dalam proyek kali ini dataset dibagi sesua dengan proporsi yang umum digunakan yaitu 80:20, 80% sebagai *train* data dan 20% sebagai *test* data.
 3. Melakukan data *normalization* yang bertujuan agar model dapat bekerja dengan lebih optimal. Normalisasi akan melakukan proses transformasi data dalam skala tertentu. Pada proyek ini, data akan dinormalisasi pada skala 0 hingga 1, yaitu *X_train* dan *X_test* dengan menggunakan *library MinMaxScaler*.
+4. Menggunakan metode *IQR* dan *boxplote* untuk mendeteksi outlier dan memvisualisasikannya. Selain itu menggunakan *histogram* untuk *univariate* analysis serta *scatter plot* untuk *multivariate* analysis. Dalam membuat korelasi *matriks*, disini menggunakan method *.corr()* dari *pandas* untuk mendapatkan nilai korelasi dari tiap pasang variabel.
 
 ## *Modeling*
 Model yang digunakan pada proyek kali ini adalah *Support Vector Regression* (SVR), *K-Nearest Neighbor* (KNN), dan *Gradient Boosting Regression*.
