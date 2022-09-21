@@ -22,22 +22,20 @@ Berdasarkan latar belakang di atas, maka dapat dirumuskan permasalahan sebagai b
 - Bagaimana cara mengolah data saham Netflix agar dapat dilatih dengan baik oleh model?
 - Bagaimana cara membangun model yang dapat memprediksi time series forecasting dengan tingkat akurasi yang baik?
 
-2. Goals
-
+#### *2. Goals*
 Penelitian ini dilakukan dengan tujuan sebagai berikut:
 - Dapat memprediksi harga saham Netflix dengan menggunakan model machine learning
 - Dapat mengolah data dengan optimal agar dapat dilatih dengan baik oleh model machine learning
 - Dapat menemukan model yang dapat memprediksi time series forecasting dengan tingkat akurasi yang baik
 
-3. Solution Statements
-
+#### *3. Solution Statements*
 Dari rumusan masalah dan tujuan di atas, maka solusi yang dapat dilakukan adalah sebagai berikut:
 - Melakukan analisis dengan cara menangani missing value pada data, mencari korelasi pada data, menangani outlier pada data, dan melakukan normalisasi pada data. Selain itu juga dapat melakukan eksplorasi dan pemrosesan pada data dengan memvisualisasikannya.
 - Membuat model regresi untuk memprediksi harga yang akan datang. Dalam proyek ini akan menggunakan algoritma Support Vector Regression (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
 - Melakukan hyperparameter tuning agar model dapat berjalan pada performa yang terbaik. 
 
 
-## Data Understanding
+## *Data Understanding*
 Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk mengarah pada dataset tersebut dapat mengunjungi link berikut https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022. Dataset tersebut memiliki format .csv dan mempunyai total 4196 records dan 7 columns. Kolom-kolom tersebut diantaranya yaitu :
 - Date merupakan hari dan tanggal dimana data tersebut didapatkan.
 - Open merupakan harga di mana keamanan finansial terbuka di pasar saat perdagangan dimulai.
@@ -47,13 +45,13 @@ Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk
 - Adj close merupakan harga penutupan yang disesuaikan harga penutupan saham untuk mencerminkan nilai saham tersebut setelah akuntansi, seperti right issue, stock split, dan stock reverse.
 - Volume digunakan untuk mengukur jumlah saham yang diperdagangkan dalam saham atau sebuah kontrak yang diperdagangkan di futures atau opsi.
 
-## Data Preparation
+## *Data Preparation*
 Teknik data preparation yang dilakukan pada proyek kali ini adalah sebagai berikut:
 1. Melakukan penghapusan fitur yang tidak diperlukan dengan menggunakan fungsi drop. Alasan melakukan hal tersebut karena pada proyek kali ini tidak memerlukan fitur time dan volume.
 2. Melakukan proses splitting pada dataset yaitu dengan membagi dataset menjadi 2, yaitu train dan test data. Train data digunakan sebagai training model, sedangkan test data digunakan sebagai validasi apakah model yang digunakan sudah akurat atau belum. Dalam proyek kali ini dataset dibagi sesua dengan proporsi yang umum digunakan yaitu 80:20, 80% sebagai train data dan 20% sebagai test data.
 3. Melakukan data normalization yang bertujuan agar model dapat bekerja dengan lebih optimal. Normalisasi akan melakukan proses transformasi data dalam skala tertentu. Pada proyek ini, data akan dinormalisasi pada skala 0 hingga 1, yaitu X_train dan X_test dengan menggunakan library MinMaxScaler.
 
-## Modelling
+## *Modeling*
 Model yang digunakan pada proyek kali ini adalah Support Vector Regression (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
 1. Support Vector Regression (SVR)
 
@@ -80,7 +78,7 @@ Untuk hyperparameter yang digunakan pada model ini adalah sebagai berikut:
 - learning_rate : hyperparameter training yang digunakan untuk menghitung nilai koreksi bobot padad waktu proses training. Umumnya nilai learning rate berkisar antara 0 hingga 1.
 - n_estimators : jumlah tahapan boosting yang akan dilakukan. Untuk nilai setiap hyperparameter disetiap algoritma adalah sebagai berikut : criterion : 'squared_error' learning_rate : 0.01 n_estimators : 1000
 
- ## Evaluation
+## *Evaluation*
 Evaluasi pada proyek ini adalah dengan menggunakan mse (mean squared error), dimana metrik tersebut digunakan untuk mengukur seberapa dekat garis pas dengan titik data.
 
 Dari hasil perbandingan tiga model yang digunakan, didapatkan bahwa model Support Vector Regression (SVR) menghasilkan performa yang lebih baik jika dibandingkan dengan K-Nearest Neighbors (KNN) dan Gradient Boosting Regression. Sehingga, model tersebut dapat membantu para investor dalam melakukan investasi serta trader yang dapat memprediksi saham netflix. 
@@ -94,7 +92,7 @@ Berdasarkan tabel hasil mse di atas dapat dilihat bahwa algoritma SVR memiliki n
 
 
 
-## References
+## *References*
 - PT Exchange Indonesia, Zipmex. (2022). Pahami Saham Netflix Sebelum Kamu Membelinya. https://zipmex.com/id/learn/pahami-saham-netflix-sebelum-anda-membelinya/
 - Al Hakim, H. A., & Fudholi, D. H. (2021). Perbandingan Penggunaan Algoritma Machine Learning pada Prediksi Tren Harga Saham Netflix. AUTOMATA, 2(2).
 - Cahyono, R. E., Sugiono, J. P., & Tjandra, S. (2019). Analisis Kinerja Metode Support Vector Regression (SVR) dalam Memprediksi Indeks Harga Konsumen. JTIM: Jurnal Teknologi Informasi dan Multimedia, 1(2), 106-116.
