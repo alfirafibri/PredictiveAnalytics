@@ -1,7 +1,7 @@
 # LAPORAN PROYEK MACHINE LEARNING - ALFIRA FIBRI NURNINGTYAS
+#
+#
 ## Domain Proyek
-
-
 Saham merupakan suatu gambaran dari kinerja keuangan. Jika harga saham di perusahaan turun hal ini akan menunjukkan suatu informasi bahwa kinerja perusahaan sedang menurun. Sehingga harga saham sangat dipengaruhi oleh kinerja keuangan. Menurut Dermawan Sjahrial, saham adalah surat berharga yang dikeluarkan oleh sebuah perusahaan yang berbentuk perseroan terbatas atau yang disebut emiten. Saham dinyatakan bahwa pemilik saham tersebut juga pemilik sebagian dari sebagian perusahaan itu. Dengan demikian apabila seorang investor membeli saham, maka dia juga menjadi pemilik atau pemegang saham perusahaan.
 
 Netflix yang berbasis di Los Gatos, California mulai beroperasi pada tahun 1997 sebagai suatu layanan DVD-by-mail berlangganan di Amerika Serikat. Namun, layanan inovatif ini tidak berlangsung lama karena tempat penyewaan film Blockbuster akhirnya gulung tikar. Pada tahun 2007, Netflix mulai menawarkan layanan video streaming dengan film dan serial TV berlisensi. Kemudian memasuki bisnis produksi konten dan merilis seri original pertamanya, “House of Cards,” pada Februari 2013. Seiring berjalannya waktu, pertumbuhan pelanggan Netflix mengalami kenaikan yang signifikan. Selama beberapa tahun terakhir, Netflix telah berfokus pada pertumbuhan basis pelanggan globalnya, dengan banyak berinvestasi dalam produksi konten asli berbasis lokal pada negara di seluruh dunia. Akibat kenaikan jumlah penggunanya, hal tersebut juga memengaruhi kinerja saham Netflix. Netflix mengakhiri kuartal pertama dengan 207,64 juta pelanggan di seluruh dunia, di mana AS dan Kanada menyumbang 35,8% dari total basis pelanggannya.
@@ -15,10 +15,8 @@ Menurut prediksi saham Netflix berbasis algoritma dari Wallet Investor, saham te
 Namun perlu diingat bahwa bahwa prediksi harga juga bisa salah. Prediksi harga sebaiknya tidak digunakan sebagai informasi dasar dari strategi investasi kamu sendiri. Ingatlah bahwa keputusan kamu untuk trading atau berinvestasi harus bergantung pada toleransi risiko, keahlian di pasar, ukuran portofolio, dan tujuan investasi yang kamu miliki.
 
 
-## Business Understanding
-
-1. Problem Statements
-
+## *Business Understanding*
+#### 1. *Problem Statements*
 Berdasarkan latar belakang di atas, maka dapat dirumuskan permasalahan sebagai berikut:
 - Bagaimana cara menganalisis data harga saham Netflix?
 - Bagaimana cara mengolah data saham Netflix agar dapat dilatih dengan baik oleh model?
