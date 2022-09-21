@@ -70,8 +70,7 @@ terhadap objek yang berdasarkan dari data pembelajaran yang jaraknya paling deka
 objek tersebut. KNN merupakan algoritma supervised learning dimana hasil dari query
 instance yang baru diklasifikan berdasarkan mayoritas dari kategori pada algoritma KNN. Algoritma ini dapat digunakan untuk klasifikasi dan regresi.
 KNN memiliki kelebihan yaitu tangguh terhadap training data yang noisy dan efektif apabila data latih nya besar. Sedangkan kekurangannya adalah tidak berfungsi dengan baik pada dataset berukuran besar, kurang cocok untuk data dengan dimensi yang tinggi, serta sensitif terhadap noise data, missing values dan outliers.
-Untuk hyperparameter yang digunakan pada model ini hanya 1 yaitu n_neighbors, hyperparameter ini adalah jumlah tetangga yang diperlukan untuk menentukan letak data baru. Dimana n_neighbors memiliki nilai sebesar 1 dan 10. 
-
+Untuk hyperparameter yang digunakan pada model ini hanya 1 yaitu n_neighbors, hyperparameter ini adalah jumlah tetangga yang diperlukan untuk menentukan letak data baru. Dimana n_neighbors memiliki nilai sebesar 1 dan 10.
 
 3. Gradient Boosting Regression
 Gradient Boosting Regression termasuk supervised  learning berbasis decision  tree yang  dapat digunakan   untuk   klasifikasi. Algoritma ini bekerja   secara   sekuensial menambahkan  prediktor  sebelumnya  yang  kurang  cocok  dengan  prediksi  ke ensemble, memastikan   kesalahan   yang   dibuat   sebelumnya   diperbaiki. Penggambaran   sederhana konsep ensemble adalah    keputusan-keputusan    dari    berbagai    mesin    pembelajaran digabungkan, kemudian untuk kelas yang menerima mayoritas ‘suara’ adalah kelas yang akan    diprediksi    oleh    keseluruhan ensemble. 
