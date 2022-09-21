@@ -81,7 +81,7 @@ Dari hasil perbandingan tiga model yang digunakan, didapatkan bahwa model *Suppo
 ![image](https://user-images.githubusercontent.com/100407187/191460636-65bc5a00-e761-47a9-b5ba-8195bfe0a7f4.png)
 
 
-Berdasarkan tabel hasil mse di atas dapat dilihat bahwa algoritma SVR memiliki nilai mse pada data *train* sebesar 2.688962	dan pada data *test* sebesar	2.823519. Kemudian pada algoritma KNN memiliki nilai mse pada data *train* sebesar 0.651909 dan pada data *test* sebesar 	1.368729. Dan pada algoritma *Gradient Boosting* memiliki nilai mse pada data *train* sebesar 0.000865 dan pada data *test* sebesar 0.210018. Sehingga, dapat disimpulkan bahwa pada proyek kali ini penggunaan model SVR menghasilkan performa yang optimal. Berikut adalah hasil visualisasi mse *(mean squared error)*.
+Berdasarkan tabel hasil mse di atas dapat dilihat bahwa algoritma SVR memiliki nilai mse pada data *train* sebesar 2.688962	dan pada data *test* sebesar	2.823519. Kemudian pada algoritma KNN memiliki nilai mse pada data *train* sebesar 0.651909 dan pada data *test* sebesar 	1.368729. Dan pada algoritma *Gradient Boosting* memiliki nilai mse pada data *train* sebesar 0.000865 dan pada data *test* sebesar 0.210018. Sehingga, dapat disimpulkan bahwa pada proyek kali ini penggunaan model SVR menghasilkan performa yang optimal. Berikut adalah hasil plot visualisasi mse *(mean squared error)*.
 
 ![image](https://user-images.githubusercontent.com/100407187/191460387-d3651411-70c2-4a9f-987b-36a6369afd9a.png)
 
