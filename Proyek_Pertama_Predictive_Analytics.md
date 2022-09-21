@@ -78,8 +78,11 @@ Evaluasi pada proyek ini adalah dengan menggunakan mse *(mean squared error)* ya
 
 Dari hasil perbandingan tiga model yang digunakan, didapatkan bahwa model *Support Vector Regression* (SVR) menghasilkan performa yang lebih baik jika dibandingkan dengan *K-Nearest Neighbors* (KNN) dan *Gradient Boosting Regression*. Sehingga, model tersebut dapat membantu para investor dalam melakukan investasi serta trader yang dapat memprediksi saham Netflix. 
 
-![image](https://user-images.githubusercontent.com/100407187/191460636-65bc5a00-e761-47a9-b5ba-8195bfe0a7f4.png)
-
+|                  | train_mse | test_mse |
+|------------------|-----------|----------|
+| SVR              | 2.688962  | 2.823519 |
+| KNN              | 0.651909  | 1.368729 |
+| GradientBoosting | 0.000865  | 0.210018 |
 
 Berdasarkan tabel hasil mse di atas dapat dilihat bahwa algoritma SVR memiliki nilai mse pada data *train* sebesar 2.688962	dan pada data *test* sebesar	2.823519. Kemudian pada algoritma KNN memiliki nilai mse pada data *train* sebesar 0.651909 dan pada data *test* sebesar 	1.368729. Dan pada algoritma *Gradient Boosting* memiliki nilai mse pada data *train* sebesar 0.000865 dan pada data *test* sebesar 0.210018. Sehingga, dapat disimpulkan bahwa pada proyek kali ini penggunaan model SVR menghasilkan performa yang optimal. Berikut adalah hasil plot visualisasi mse *(mean squared error)*.
 
