@@ -58,6 +58,7 @@ Teknik data preparation yang dilakukan pada proyek kali ini adalah sebagai berik
 ## Modelling
 Model yang digunakan pada proyek kali ini adalah Support Vector Regression (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
 1. Support Vector Regression (SVR)
+
 Support Vector Regression merupakan hasil dari modifikasi dari metode Support Vector Machine yang dipergunakan untuk menyelesaikan masalah prediksi. Pada metode SVM adalah penerapan dari teori machine learning yang menghasilkan nilai bulat, sedangkan pada algoritme Support Vector Regression (SVR) yaitu untuk penerapan kasus regresi yang menghasilkan keluaran berupa bilangan riil. Konsep algoritme SVR dapat menghasilkan nilai prediksi yang bagus karena SVR mempunyai kemampuan menyelesaiakan masalah overfitting. Keuntungan menggunakan SVR yaitu SVR sangat cocok untuk data set berdimensi tinggi dan sangat cocok digunakan untuk kasus non linier dengan menggunakan fungsi Kernel. Selain itu, algoritma SVR menghasilkan trend data yang bergelombang mengikuti jalur data yang terbentuk, sehingga prediksi data yang dihasilkan lebih akurat.
 Untuk hyperparameter yang digunakan pada model ini adalah sebagai berikut:
 - kernel : hyperparameter ini digunakan untuk menghitung kernel matriks sebelumnya.
@@ -65,6 +66,7 @@ Untuk hyperparameter yang digunakan pada model ini adalah sebagai berikut:
 - gamma : hyperparameter ini digunakan untuk menentukan seberapa jauh pengaruh contoh pelatihan, dimana jika nilainya rendah berarti jauh dan jika nilainya tinggi berarti dekat. Untuk nilai setiap hyperparameter disetiap algoritma adalah sebagai berikut : kernel : ['rbf'] C : [0.001, 0.01, 0.1, 10, 100, 1000] gamma : [0.3, 0.03, 0.003, 0.0003]
 
 2. K-Nearest Neighbors (KNN)
+
 Algoritma K-Nearest Neighbor (KNN) adalah sebuah metode untuk melakukan klasifikasi
 terhadap objek yang berdasarkan dari data pembelajaran yang jaraknya paling dekat dengan
 objek tersebut. KNN merupakan algoritma supervised learning dimana hasil dari query
@@ -73,6 +75,7 @@ KNN memiliki kelebihan yaitu tangguh terhadap training data yang noisy dan efekt
 Untuk hyperparameter yang digunakan pada model ini hanya 1 yaitu n_neighbors, hyperparameter ini adalah jumlah tetangga yang diperlukan untuk menentukan letak data baru. Dimana n_neighbors memiliki nilai sebesar 1 dan 10.
 
 3. Gradient Boosting Regression
+
 Gradient Boosting Regression termasuk supervised  learning berbasis decision  tree yang  dapat digunakan   untuk   klasifikasi. Algoritma ini bekerja   secara   sekuensial menambahkan  prediktor  sebelumnya  yang  kurang  cocok  dengan  prediksi  ke ensemble, memastikan   kesalahan   yang   dibuat   sebelumnya   diperbaiki. Penggambaran   sederhana konsep ensemble adalah    keputusan-keputusan    dari    berbagai    mesin    pembelajaran digabungkan, kemudian untuk kelas yang menerima mayoritas ‘suara’ adalah kelas yang akan    diprediksi    oleh    keseluruhan ensemble. 
 Untuk hyperparameter yang digunakan pada model ini adalah sebagai berikut:
 - criterion : hyperparameter yang digunakan untuk menemukan fitur dan ambang batas optimal dalam membagi data.
