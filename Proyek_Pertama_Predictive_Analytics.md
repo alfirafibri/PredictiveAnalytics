@@ -84,6 +84,9 @@ Dari hasil perbandingan tiga model yang digunakan, didapatkan bahwa model Suppor
 
 Berdasarkan tabel hasil mse di atas dapat dilihat bahwa algoritma SVR memiliki nilai mse (mean squared error) pada data train sebesar 0.000404 dan pada data test sebesar 0.000415. Kemudian pada algoritma KNN memiliki nilai mse (mean squared error) pada data train sebesar 0.0 dan pada data test sebesar 0.0. Dan pada algoritma GradientBoosting memiliki nilai mse (mean squared error) pada data train sebesar 0.0 dan pada data test sebesar 0.0. Sehingga, dapat disimpulkan bahwa pada proyek kali ini penggunaan model SVR menghasilkan performa yang optimal. Berikut adalah hasil visualisasi mse (mean squared error).
 
+![image](https://user-images.githubusercontent.com/100407187/191460387-d3651411-70c2-4a9f-987b-36a6369afd9a.png)
+
+
 
 ## References
 - PT Exchange Indonesia, Zipmex. (2022). Pahami Saham Netflix Sebelum Kamu Membelinya. https://zipmex.com/id/learn/pahami-saham-netflix-sebelum-anda-membelinya/
