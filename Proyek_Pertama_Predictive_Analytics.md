@@ -15,7 +15,7 @@ Menurut prediksi saham Netflix berbasis algoritma dari *Wallet Investor*, saham 
 Namun perlu diingat bahwa prediksi harga juga bisa salah. Prediksi harga sebaiknya tidak digunakan sebagai informasi dasar dari strategi investasi kamu sendiri. Ingatlah bahwa keputusan kamu untuk trading atau berinvestasi harus bergantung pada toleransi risiko, keahlian di pasar, ukuran portofolio, dan tujuan investasi yang kamu miliki.
 
 ## *Business Understanding*
-#### 1. *Problem Statements*
+#### *1. Problem Statements*
 Berdasarkan penjelasan latar belakang di atas, maka dapat dirumuskan permasalahan sebagai berikut:
 - Bagaimana cara menganalisis data harga saham Netflix?
 - Bagaimana cara membangun model yang dapat memprediksi *time series forecasting* dengan tingkat akurasi yang baik?
