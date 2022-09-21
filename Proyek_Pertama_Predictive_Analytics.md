@@ -35,7 +35,7 @@ Dari rumusan masalah dan tujuan di atas, maka solusi yang dapat dilakukan adalah
 
 
 ## *Data Understanding*
-Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk mengarah pada dataset tersebut dapat mengunjungi link berikut https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022. Dataset tersebut memiliki format .csv dan mempunyai total 4196 *records* dan 7 *columns*. Kolom-kolom tersebut diantaranya yaitu :
+Dataset yang digunakan pada proyek ini didapatkan dari *website* kaggle.com. Untuk mengarah pada dataset tersebut dapat mengunjungi link berikut https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022. Dataset tersebut memiliki format .csv dan mempunyai total 4196 *records* dan 7 *columns*. Kolom-kolom tersebut diantaranya yaitu :
 - *Date* merupakan hari dan tanggal dimana data tersebut didapatkan.
 - *Open* merupakan harga di mana keamanan finansial terbuka di pasar saat perdagangan dimulai.
 - *High* merupakan harga tertinggi di mana suatu saham diperdagangkan selama suatu periode.
@@ -45,7 +45,7 @@ Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk
 - *Volume* digunakan untuk mengukur jumlah saham yang diperdagangkan dalam saham atau sebuah kontrak yang diperdagangkan di *futures* atau opsi.
 
 ## *Data Preparation*
-Teknik data preparation yang dilakukan pada proyek kali ini adalah sebagai berikut:
+Teknik *data preparation* yang dilakukan pada proyek kali ini adalah sebagai berikut:
 1. Melakukan penghapusan fitur yang tidak diperlukan dengan menggunakan fungsi *drop*. Alasan melakukan hal tersebut karena pada proyek kali ini tidak memerlukan fitur *time* dan *volume*.
 2. Melakukan proses *splitting* pada dataset yaitu dengan membagi dataset menjadi 2, yaitu *train* dan *test* data. *Train* data digunakan sebagai training model, sedangkan *test* data digunakan sebagai validasi model. Dalam proyek kali ini dataset dibagi sesua dengan proporsi yang umum digunakan yaitu 80:20, 80% sebagai *train* data dan 20% sebagai *test* data.
 3. Melakukan data *normalization* yang bertujuan agar model dapat bekerja dengan lebih optimal. Normalisasi akan melakukan proses transformasi data dalam skala tertentu. Pada proyek ini, data akan dinormalisasi pada skala 0 hingga 1, yaitu *X_train* dan *X_test* dengan menggunakan *library MinMaxScaler*.
