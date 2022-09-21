@@ -30,12 +30,12 @@ Penelitian ini dilakukan dengan tujuan sebagai berikut:
 #### *3. Solution Statements*
 Dari rumusan masalah dan tujuan di atas, maka solusi yang dapat dilakukan adalah sebagai berikut:
 - Melakukan analisis dengan cara menangani *missing value* pada data, mencari korelasi pada data, menangani *outlier* pada data, dan melakukan normalisasi pada data. Selain itu dilakukan eksplorasi dan pemrosesan pada data dengan memvisualisasikannya.
-- Membuat model regresi untuk memprediksi harga saham Netflix pada kemudian hari. Dalam proyek ini akan menggunakan algoritma *Support Vector Regression* (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
-- Melakukan hyperparameter tuning agar model dapat berjalan pada performa yang terbaik. 
+- Membuat model regresi untuk memprediksi harga saham Netflix pada kemudian hari. Dalam proyek ini akan menggunakan algoritma *Support Vector Regression* (SVR), *K-Nearest Neighbor* (KNN), dan *Gradient Boosting Regression*.
+- Melakukan *hyperparameter tuning* agar model dapat bekerja dengan performa yang terbaik. 
 
 
 ## *Data Understanding*
-Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk mengarah pada dataset tersebut dapat mengunjungi link berikut https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022. Dataset tersebut memiliki format .csv dan mempunyai total 4196 records dan 7 columns. Kolom-kolom tersebut diantaranya yaitu :
+Dataset yang digunakan pada proyek ini didapatkan dari website kaggle.com. Untuk mengarah pada dataset tersebut dapat mengunjungi link berikut https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022. Dataset tersebut memiliki format .csv dan mempunyai total 4196 *records* dan 7 *columns*. Kolom-kolom tersebut diantaranya yaitu :
 - Date merupakan hari dan tanggal dimana data tersebut didapatkan.
 - Open merupakan harga di mana keamanan finansial terbuka di pasar saat perdagangan dimulai.
 - High merupakan harga tertinggi di mana suatu saham diperdagangkan selama suatu periode.
