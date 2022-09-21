@@ -18,19 +18,19 @@ Namun perlu diingat bahwa prediksi harga juga bisa salah. Prediksi harga sebaikn
 #### 1. *Problem Statements*
 Berdasarkan penjelasan latar belakang di atas, maka dapat dirumuskan permasalahan sebagai berikut:
 - Bagaimana cara menganalisis data harga saham Netflix?
-- Bagaimana cara mengolah data saham Netflix agar dapat dilatih dengan baik oleh model?
 - Bagaimana cara membangun model yang dapat memprediksi *time series forecasting* dengan tingkat akurasi yang baik?
+- Bagaimana cara mengolah data saham Netflix agar dapat dilatih dengan baik oleh model?
 
 #### *2. Goals*
 Penelitian ini dilakukan dengan tujuan sebagai berikut:
-- Dapat memprediksi harga saham Netflix dengan menggunakan model machine learning
-- Dapat mengolah data dengan optimal agar dapat dilatih dengan baik oleh model machine learning
-- Dapat menemukan model yang dapat memprediksi time series forecasting dengan tingkat akurasi yang baik
+- Dapat memprediksi harga saham Netflix dengan menggunakan model *machine learning*.
+- Dapat menemukan model yang dapat memprediksi *time series forecasting* dengan tingkat akurasi yang baik.
+- Dapat mengolah data saham Netflix dengan optimal agar dapat dilatih dengan baik oleh model *machine learning*.
 
 #### *3. Solution Statements*
 Dari rumusan masalah dan tujuan di atas, maka solusi yang dapat dilakukan adalah sebagai berikut:
-- Melakukan analisis dengan cara menangani missing value pada data, mencari korelasi pada data, menangani outlier pada data, dan melakukan normalisasi pada data. Selain itu juga dapat melakukan eksplorasi dan pemrosesan pada data dengan memvisualisasikannya.
-- Membuat model regresi untuk memprediksi harga yang akan datang. Dalam proyek ini akan menggunakan algoritma Support Vector Regression (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
+- Melakukan analisis dengan cara menangani *missing value* pada data, mencari korelasi pada data, menangani *outlier* pada data, dan melakukan normalisasi pada data. Selain itu dilakukan eksplorasi dan pemrosesan pada data dengan memvisualisasikannya.
+- Membuat model regresi untuk memprediksi harga saham Netflix pada kemudian hari. Dalam proyek ini akan menggunakan algoritma *Support Vector Regression* (SVR), K-Nearest Neighbor (KNN), dan Gradient Boosting Regression.
 - Melakukan hyperparameter tuning agar model dapat berjalan pada performa yang terbaik. 
 
 
